@@ -1,0 +1,107 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+.navbar {
+    background-color: #00b7ff;
+}
+
+.navbar-toggler {
+    background-color: #00b7ff;
+}
+
+.carousel-inner img {
+    width: 1920px;
+    height: 860px;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.text-color {
+    color: #00b7ff;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: #00b7ff;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #00b7ff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #00b7ff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+#sobre,
+#cardapio {
+    background-color: #d7f4ff;
+}
+
+#eventos img {
+    height: 400px;
+}
+
+#cardapio {
+    margin-top: 25px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #sobremesa img {
+        padding-top: 15px;
+    }
+
+    #cardapio {
+        margin-top: 60px;
+    }
+
+    #eventos {
+        margin-top: 150px;
+    }
+
+    #sobre ul {
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .tab-pane img,
+    h5,
+    p {
+        margin-left: 40px;
+    }
+
+    #contato {
+        margin-top: 35px;
+    }
+}
